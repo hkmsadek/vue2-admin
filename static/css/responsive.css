@@ -1,0 +1,253 @@
+/* Mobile */
+@media only screen and (max-width: 765px) {
+._navbar_logo {
+    flex: 0 0 auto;
+}
+._navbar_logo_img_text {
+    display: none;
+}
+._navbar_logo {
+    flex: 0 0 52px;
+}
+._navbar_search_main_all {
+    display: none;
+}
+._navbar_right_list li {
+    padding: 0 8px 0;
+    margin-left: 0;
+}
+._navbar_right_list li._mosearch:hover {
+    color: #2d8cf0;
+}
+._navbar_right_list li._mosearch {
+    display: inline-block;
+    color: #637178;
+    font-size: 25px;
+}
+._left_sidebar {
+    left: -281px;
+}
+._main_layout {
+    margin-left: 0;
+}
+._main_content {
+    padding: 25px 15px;
+    min-height: calc(100vh - 148px);
+}
+._navbar_left_icon{
+    display: none;
+}
+._navbar_left_icon._mob_icon{
+    display: block;
+}
+._mobSidebarOpen{}
+._mobSidebarOpen._left_sidebar{
+    left: 0;
+}
+._left_sidebar_top {
+    padding: 10px 0 11px;
+    height: 195px;
+}
+._left_sidebar_pro {
+    bottom: 29px;
+}
+._left_sidebar_name {
+    bottom: 12px;
+}
+._mobile_logo {
+    display: block;
+}
+._left_sidebar_pic {
+    height: 85px;
+    width: 85px;
+}
+._footer_main {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 14px 0;
+    margin: 0 15px;
+}
+._footer_main_left {
+    flex: 0 0 100%;
+    text-align: center;
+}
+._footer_main_right {
+    flex: 0 0 100%;
+    text-align: center;
+    padding: 9px 0 0;
+}
+._footer_list li:last-child a {
+    padding: 0 13px 0 13px;
+}
+._nav_pro_list li {
+    padding: 0;
+}
+._pagination .ivu-page-options {
+    margin-left: 0;
+    flex: 0 0 100%;
+}
+._pagination .ivu-page-item {
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+._invoice_date {
+    text-align: left;
+    padding-top: 15px;
+}
+._invoice_buttons {
+    text-align: center;
+}
+._invoice_address_date {
+    margin-bottom: 24px;
+}
+._1card_top_search {
+    border-left: 0px solid #e7e7e7;
+    padding: 0 0 0;
+    margin: 10px 0 12px;
+}
+
+
+}
+/* Mobile */
+
+/* Ipad */
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+._navbar {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+._navbar_left {
+    overflow: hidden;
+    flex: 1 1;
+}
+._navbar_right {
+    flex: 0 0 auto;
+    /* overflow: hidden; */
+}
+._navbar_logo {
+    flex: 0 0 auto;
+}
+._navbar_logo {
+    flex: 0 0 52px;
+}
+._navbar_search_main_all {
+    /* display: none; */
+}
+._navbar_search {
+    flex: 0 0 278px;
+    overflow: hidden;
+}
+._navbar_right_list li {
+    padding: 0 8px 0;
+    margin-left: 0;
+}
+._navbar_right_list li._mosearch:hover {
+    color: #2d8cf0;
+}
+._left_sidebar {
+    left: -281px;
+}
+._main_layout {
+    margin-left: 0;
+}
+._main_content {
+    padding: 25px;
+    min-height: calc(100vh - 134px);
+}
+._navbar_left_icon{
+    display: none;
+}
+._navbar_left_icon._mob_icon{
+    display: block;
+}
+._mobSidebarOpen{}
+._mobSidebarOpen._left_sidebar{
+    left: 0;
+}
+._navbar_left_button {
+    padding: 0 19px 0 16px;
+}
+._1messenger_left {
+    flex: 0 0 270px;
+}
+._1messenger_chat_pic {
+    height: 50px;
+    width: 50px;
+    flex: 0 0 50px;
+}
+._1messenger_chat_list {
+    padding: 12px 15px;
+}
+._1messenger_chat_filter {
+    padding: 17px 15px 18px;
+}
+._1messenger_search_header {
+    padding: 27px 15px 27px;
+}
+._1messenger_right_header_left {
+    flex: 1 1;
+    overflow: hidden;
+}
+._1messenger_chat_details {
+    padding: 0 0px 0 13px;
+}
+._1fri_mess {
+    padding: 20px 20px;
+}
+._1own_mess {
+    padding: 20px 20px;
+}
+._1own_mess_main {
+    max-width: 100%;
+    padding: 0 0 0 30px;
+}
+._1fri_mess_main {
+    max-width: 100%;
+    padding: 0 21px 0 9px;
+}
+._1mess_textarea {
+    padding: 25px 25px 25px;
+}
+._mess_chat_pro {
+    position: relative;
+}
+._1mess_pro {
+    flex: 0 0 0;
+    position: absolute;
+    background: #fff;
+    width: 0%;
+    right: 0;
+    top: 0;
+    z-index: 12;
+}
+._pro_button{
+    display: none;
+}
+._pro_button._small_pro_button{
+    display: block;
+}
+._1messenger_pro_open_small ._1mess_pro {
+    border-left: 1px solid transparent;
+    flex: 0 0 100%;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+}
+._nav_pro_list li {
+    padding: 0;
+}
+
+
+}
+/* Ipad */
+
+/* Desktop 1366 */
+@media only screen and (max-width: 1500px) {
+._1messenger_left{
+
+}
+}
